@@ -44,7 +44,12 @@ dependencies {
     implementation(libs.lifecycle.viewmodel.ktx)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
+    implementation(libs.lombok)
+    implementation("com.google.code.gson:gson:2.10.1")
+    implementation(libs.firebase.crashlytics.buildtools)
+    implementation("com.microsoft.sqlserver:mssql-jdbc:12.2.0.jre11")
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
 }
